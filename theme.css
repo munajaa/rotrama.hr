@@ -1,0 +1,21 @@
+
+/* Adding modern theme and animations */
+body.dark-theme {
+    background-color: #181818;
+    color: #f5f5f5;
+}
+header.parallax {
+    background: url('images/header-bg.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header.parallax h1 {
+    color: #fff;
+    font-size: 3em;
+}
+/* Additional styles can go here */
+    

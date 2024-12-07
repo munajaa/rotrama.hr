@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotrama Reselling</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="keywords" content="reselling, Discord, brendirani proizvodi, kupovina, prodaja, resell proizvodi, trgovina, Balkanski reselling, brendirana elektronika, AirPods, iPhone, prodaja na Balkanu">
+    <meta name="description" content="Najbolji reselling servis za kupovinu brendiranih proizvoda na Balkanu. Učlanite se u našu Discord grupu i počnite kupovati i prodavati s najpovoljnijim cijenama!">
+
+    <!-- Dodavanje loga kao favicon -->
+<!-- Dodavanje loga kao favicon s veličinom 32x32px -->
+<link rel="icon" href="logo.png" type="image/png" sizes="32x32">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Dobrodošli na Rotrama Reselling!</h1>
+        <p>Vaša destinacija za kvalitetne brendirane proizvode uz povoljne cijene.</p>
+        <a href="https://discord.gg/k6uCw5mTfk" class="button">Pridruži se našoj Discord grupi</a>
+    </header>
+
+    <!-- Navigacija -->
+    <nav class="nav-bar">
+        <a href="#about" class="nav-link">O nama</a>
+        <a href="#process" class="nav-link">Proces naručivanja</a>
+        <a href="#reviews" class="nav-link">Recenzije</a>
+        <a href="#contact" class="nav-link">Kontakt</a>
+    </nav>
+
+    <!-- O nama -->
+    <section id="about" class="section">
+        <h2>O Rotrama Resellingu</h2>
+        <ul>
+            <li><strong>Proizvodi:</strong> Brendirani proizvodi po povoljnim cijenama.</li>
+            <li><strong>Vendors:</strong> Naručivanje od provjerenih vendora sa 14-20 dana dostave ili 3-5 dana od vendora iz Njemačke.</li>
+            <li><strong>Cijene:</strong> Cijene se kreću od 10 do 80 eura, ovisno o proizvodu.</li>
+            <li><strong>Kanal za recenzije:</strong> Svaki član dijeli mišljenja i slike naručenih proizvoda.</li>
+        </ul>
+    </section>
+
+    <!-- Proces naručivanja -->
+    <section id="process" class="section">
+        <h2>Kako naručiti?</h2>
+        <ul>
+            <li><strong>Pridruži se:</strong> Prvi korak je pridruživanje našoj Discord grupi.</li>
+            <li><strong>Odaberi vendor:</strong> Pregledaj ponudu vendora i odaberi željeni proizvod.</li>
+            <li><strong>Naruči:</strong> Dogovori narudžbu sa vendorom, izvrši uplatu.</li>
+            <li><strong>Dostava:</strong> Čekaj dostavu proizvoda, u prosjeku 14-20 dana.</li>
+        </ul>
+    </section>
+
+<!-- Sekcija Recenzije -->
+<section id="reviews" class="section">
+    <h2>Recenzije naših korisnika</h2>
+
+    <div class="reviews">
+        <!-- Prva recenzija -->
+        <div class="review-card">
+            <img src="user1.jpg" alt="User1" class="review-img" onclick="openLightbox(this.src)">
+            <p class="review-text">SVE PREPORUKE ZA AIRPODS 20 EURA STIGLE MI ZA 3 DANA AKO HOČETE NAPRAVITI BRZI KEŠ EVO KUPITE AIRPODS I PRODAJTE IH</p>
+            <footer>Romano | Dobio prije 3 dana</footer>
+        </div>
+
+        <!-- Druga recenzija -->
+        <div class="review-card">
+            <img src="user2.jpg" alt="User2" class="review-img" onclick="openLightbox(this.src)">
+            <p class="review-text">Legit bro</p>
+            <footer>Reseller | Dobio prije 15 minuta</footer>
+        </div>
+
+        <!-- Treća recenzija -->
+        <div class="review-card">
+            <img src="user3.jpg" alt="User3" class="review-img" onclick="openLightbox(this.src)">
+            <p class="review-text">Stigle danas ujutro, sad sam uhvatio vremena slikat 10/10</p>
+            <footer>$eki bratt | Stiglo danas</footer>
+        </div>
+
+        <!-- Četvrta recenzija -->
+        <div class="review-card">
+            <img src="user4.jpg" alt="User4" class="review-img" onclick="openLightbox(this.src)">
+            <p class="review-text">Šlušalice stigle danas, savršene su.</p>
+            <footer>Dawid | Stiglo danas</footer>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Kontakt -->
+    <section id="contact" class="section">
+        <h2>Kontaktirajte nas</h2>
+        <form action="mailto:romano.polovic33@gmail.com" method="POST" class="contact-form">
+            <label for="name">Ime</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Poruka</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Pošaljite poruku</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Rotrama Reselling. Sva prava pridržana.</p>
+    </footer>
+
+</body>
+</html>
